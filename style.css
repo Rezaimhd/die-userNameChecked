@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+label, p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    text-align: left;
+    margin: 10px;
+    background: transparent;
+
+}
+.bbt{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: #fff;
+    background-color: rgb(69, 78, 241);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+img{
+    width: 300px;
+}
+.matn{
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.matn2{
+    width: 80%;
+}
