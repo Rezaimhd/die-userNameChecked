@@ -1,8 +1,9 @@
+
 body{
     padding: 0;
     margin: 0;
-    height: 100vh;
-    background-color: aquamarine;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #ada4eb 100%);
+
 }
 
 main{
@@ -27,6 +28,9 @@ input{
     text-align: left;
     margin: 10px;
     background: transparent;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
 
 }
 .bbt{
@@ -42,15 +46,21 @@ button{
     width: 50%;
     text-align: center;
 }
-header{
+.header_alles{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-
+}
+.header_left{
+    width: 50%;
+}
+.header_right {
+    width: 50%;
 }
 img{
-    width: 300px;
+    width: 100%;
 }
+
 .matn{
     display: flex;
     direction: rtl;
@@ -61,4 +71,12 @@ img{
 }
 .matn2{
     width: 80%;
+}
+ul{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-align: justify;
+}
+.checkName{
+    text-align: center;
 }
