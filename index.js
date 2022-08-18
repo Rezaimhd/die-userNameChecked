@@ -822,6 +822,8 @@ const liste = ["Herr Salahshoor Ahmad Saeed" , "Herr QAYED ABDUL QAYOOM" , "Herr
 ,"Frau Khushbo Ghafari"
 ,"Herr HABIB WAHIDULLAH"
 ,"Herr Mohammad Reza NASIRI"
+,"Frau Susan Ghafoori"
+,"Herr Ahmad Shakib Ghafoori"
 ];
 
 
